@@ -1,4 +1,4 @@
-var https = require('');
+var https = require('follow-redirects').https;
 var fs = require("fs");
 const trustedCa = [
     '/etc/ssl/certs/ca-certificates.crt'];
